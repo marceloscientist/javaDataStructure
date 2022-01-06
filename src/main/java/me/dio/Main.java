@@ -5,8 +5,6 @@ import me.dio.QueueModel.QueueAlgorithm;
 import me.dio.StackModel.IntNode;
 import me.dio.StackModel.StackAlgorithm;
 
-import java.util.Scanner;
-
 public
 class Main {
     public static
