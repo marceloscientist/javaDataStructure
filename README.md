@@ -26,7 +26,7 @@ and are willing to be hired sooner.
 O seguinte projeto esta sendo desenvolvido através dos Bootcamps da DIO Cognizant & Spread que focam suas ferramentas em JAVA. 
 
 Ambas empresas internacionais, oferecem bolsas de estudos na Digital Innovation One para que aqueles que tiverem interesse em aprender programação 
-tenham a oportunidade de aprenderem e serem contratados por tais.
+e queiram ser contratados logo.
 
 
 ## ✒️ Autores
