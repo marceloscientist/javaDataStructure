@@ -1,5 +1,7 @@
 package me.dio;
 
+import me.dio.LinkedListModel.LinkedListAlgorithm;
+import me.dio.LinkedListModel.LinkedNode;
 import me.dio.QueueModel.ObjectNode;
 import me.dio.QueueModel.QueueAlgorithm;
 import me.dio.StackModel.IntNode;
@@ -11,6 +13,25 @@ class Main {
     void main (String[] args) {
 
 
+
+       /*-----------// Linked List Example // -----------
+
+
+        LinkedListAlgorithm<String> myLinkedNode = new LinkedListAlgorithm<>();
+
+        myLinkedNode.add("#1 - First Linked Node");
+        myLinkedNode.add("#2 - Second Linked Node");
+        myLinkedNode.add("#3 - Third Linked Node");
+        myLinkedNode.add("#4 - Forth Linked Node");
+
+        System.out.println(myLinkedNode.getContent(0));
+        System.out.println(myLinkedNode.getContent(1));
+        System.out.println(myLinkedNode.getContent(2));
+        System.out.println(myLinkedNode.getContent(3));
+
+        myLinkedNode.remove(2);
+        System.out.println(myLinkedNode);
+        */
       /*
 
        /*-----------// Queue Example // -----------
