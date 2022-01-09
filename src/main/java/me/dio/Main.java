@@ -1,5 +1,8 @@
 package me.dio;
 
+import me.dio.CircularLinkedListModel.CircularLinkedListAlgorithm;
+import me.dio.CircularLinkedListModel.CircularLinkedListNode;
+import me.dio.DoublyLinkedListModel.DoublyLinkedListAlgorithm;
 import me.dio.LinkedListModel.LinkedListAlgorithm;
 import me.dio.LinkedListModel.LinkedNode;
 import me.dio.QueueModel.ObjectNode;
@@ -11,6 +14,49 @@ public
 class Main {
     public static
     void main (String[] args) {
+
+        /*-----------// Circular Linked List Example // ----------- */
+
+        CircularLinkedListAlgorithm<String> myCircularLinkedListNode  = new CircularLinkedListAlgorithm<>();
+
+        System.out.println(myCircularLinkedListNode);
+        myCircularLinkedListNode.add("#1 - First Linked Node");
+        myCircularLinkedListNode.add("#2 - Second Linked Node");
+        myCircularLinkedListNode.add("#3 - Third Linked Node");
+        myCircularLinkedListNode.add("#4 - Forth Linked Node");
+
+        System.out.println(myCircularLinkedListNode.get(0));
+        System.out.println(myCircularLinkedListNode);
+
+        System.out.println(myCircularLinkedListNode.get(1));
+        System.out.println(myCircularLinkedListNode.get(2));
+        System.out.println(myCircularLinkedListNode);
+
+        myCircularLinkedListNode.remove(0);
+        System.out.println(myCircularLinkedListNode);
+        System.out.println(myCircularLinkedListNode.get(1));
+
+        myCircularLinkedListNode.remove(1);
+        System.out.println(myCircularLinkedListNode);
+
+
+        /*-----------// Doubly Linked List Example // ----------- */
+
+/*
+        DoublyLinkedListAlgorithm<String> myDoublyLinkedNode = new DoublyLinkedListAlgorithm<>();
+
+        myDoublyLinkedNode.add("#1 - First Linked Node");
+        myDoublyLinkedNode.add("#3 - Third Linked Node");
+        myDoublyLinkedNode.add(1,"#2 - Second Linked Node");
+        myDoublyLinkedNode.add("#4 - Forth Linked Node");
+
+        System.out.println(myDoublyLinkedNode.get(0));
+        System.out.println(myDoublyLinkedNode.get(1));
+        System.out.println(myDoublyLinkedNode.get(2));
+        System.out.println(myDoublyLinkedNode.get(3));
+
+        myDoublyLinkedNode.remove(3);
+        System.out.println(myDoublyLinkedNode);*/
 
 
 
