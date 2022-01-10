@@ -1,5 +1,7 @@
 package me.dio;
 
+import me.dio.BinaryTreeModel.BinaryTreeAlgorithm;
+import me.dio.BinaryTreeModel.Object;
 import me.dio.CircularLinkedListModel.CircularLinkedListAlgorithm;
 import me.dio.CircularLinkedListModel.CircularLinkedListNode;
 import me.dio.DoublyLinkedListModel.DoublyLinkedListAlgorithm;
@@ -9,13 +11,41 @@ import me.dio.QueueModel.ObjectNode;
 import me.dio.QueueModel.QueueAlgorithm;
 import me.dio.StackModel.IntNode;
 import me.dio.StackModel.StackAlgorithm;
+import me.dio.model.Car;
+
+import java.util.ArrayList;
 
 public
 class Main {
     public static
     void main (String[] args) {
 
-        /*-----------// Circular Linked List Example // ----------- */
+        /*-----------// HashCode & Equals Examples // ----------- */
+
+        List<Car> cars = new ArrayList<>();
+
+
+
+
+        /*  *//*-----------// Binary Tree List Example // ----------- *//*
+
+        BinaryTreeAlgorithm<Object> myTree  = new BinaryTreeAlgorithm<>();
+
+        myTree.insertNode(new Object(13));
+        myTree.insertNode(new Object(10));
+        myTree.insertNode(new Object(25));
+        myTree.insertNode(new Object(2));
+        myTree.insertNode(new Object(12));
+        myTree.insertNode(new Object(20));
+        myTree.insertNode(new Object(31));
+        myTree.insertNode(new Object(29));
+
+        myTree.showInOrder();
+        myTree.showPreOrder();
+        myTree.showPostOrder();
+*/
+
+        /*-----------// Circular Linked List Example // -----------
 
         CircularLinkedListAlgorithm<String> myCircularLinkedListNode  = new CircularLinkedListAlgorithm<>();
 
@@ -40,9 +70,10 @@ class Main {
         System.out.println(myCircularLinkedListNode);
 
 
-        /*-----------// Doubly Linked List Example // ----------- */
+         */
 
-/*
+
+        /*-----------// Doubly Linked List Example // -----------
         DoublyLinkedListAlgorithm<String> myDoublyLinkedNode = new DoublyLinkedListAlgorithm<>();
 
         myDoublyLinkedNode.add("#1 - First Linked Node");
