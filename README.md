@@ -38,5 +38,3 @@ e queiram ser contratados logo.
 ## 🚀 Requisitos, modificações e execução
 ### ⚙️Requisitos]
 * Linguagem Java (versão 11)
-
-

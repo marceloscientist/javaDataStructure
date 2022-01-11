@@ -13,17 +13,99 @@ import me.dio.StackModel.IntNode;
 import me.dio.StackModel.StackAlgorithm;
 import me.dio.model.Car;
 
-import java.util.ArrayList;
+import java.util.*;
 
 public
 class Main {
     public static
     void main (String[] args) {
 
-        /*-----------// HashCode & Equals Examples // ----------- */
+
+        /*-----------// Map && HashMap Examples // ----------- */
+        Map<String, String> aluno = new HashMap<>();
+        aluno.put("nome", "Marcelo");
+        aluno.put("idade", "37");
+
+        Map<String, String> aluno1 = new HashMap<>();
+        aluno1.put("nome", "Angélica");
+        aluno1.put("idade", "32");
+
+        List<Map<String, String>> alunos = new ArrayList<>();
+        alunos.add(aluno);
+        alunos.add(aluno1);
+        System.out.println(alunos);
+        System.out.println(aluno.containsKey("idade"));
+
+        /*
+        */
+/*-----------// Set && TreeSet Examples // ----------- *//*
+
+        Set<Car> cars = new HashSet<>();
+        cars.add(new Car("Ford"));
+        cars.add(new Car("Chevrolet"));
+        cars.add(new Car("Volkswagen"));
+
+        System.out.println(cars);
+
+
+        Set<Car> treeCars = new TreeSet<>();
+        treeCars.add(new Car("Ford"));
+        treeCars.add(new Car("Chevrolet"));
+        treeCars.add(new Car("Volkswagen"));
+
+        System.out.println(treeCars);
+*/
+
+        /*-----------// Queue Examples // ----------- *//*
+        Queue<Car> cars = new LinkedList<>();
+        cars.add(new Car("Ford"));
+        cars.add(new Car("Chevrolet"));
+        cars.add(new Car("Volkswagen"));
+
+        System.out.println(cars.add(new Car("Peugeot")));
+        System.out.println(cars);
+        System.out.println(cars.offer(new Car("Renault")));
+        System.out.println(cars);
+        System.out.println(cars.peek());
+        System.out.println(cars);
+        System.out.println(cars.poll());
+        System.out.println(cars);
+        System.out.println(cars.isEmpty());
+        System.out.println(cars.size());
+*/
+        /*
+
+        *//*-----------// Stack Examples // ----------- *//*
+        Stack<Car> cars = new Stack<>();
+        cars.push(new Car("Ford"));
+        cars.push(new Car("Chevrolet"));
+        cars.push(new Car("Volkswagen"));
+        cars.push(new Car("Ford"));
+        cars.push(new Car("Ford1"));
+
+        System.out.println(cars);
+        System.out.println(cars.pop());
+        System.out.println(cars);
+        System.out.println(cars.peek());
+        System.out.println(cars);
+
+        System.out.println(cars.empty());
+*/
+      /*  *//*-----------// List && ArrayList >> HashCode & Equals Examples // ----------- *//*
 
         List<Car> cars = new ArrayList<>();
+        cars.add(new Car("Ford"));
+        cars.add(new Car("Chevrolet"));
+        cars.add(new Car("Volkswagen"));
+        cars.add(new Car("Ford"));
+        cars.add(new Car("Ford1"));
 
+        System.out.println(cars.contains(new Car("Ford")));
+        System.out.println(cars.get(0).equals(cars.get(3)));
+        System.out.println(cars.get(0).hashCode());
+        System.out.println(cars.get(3).hashCode());
+        System.out.println(cars.get(4).hashCode());
+*/
 
 
 
